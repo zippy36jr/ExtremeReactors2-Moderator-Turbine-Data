@@ -1,0 +1,502 @@
+{
+  "Solid": {
+    "common": [
+      {
+        "id": "c:storage_block/apatite",
+        "absorption": 0.48,
+        "heatEfficiency": 0.73,
+        "moderation": 1.30,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_STONE"
+      },
+      {
+        "id": "c:storage_block/cinnabar",
+        "absorption": 0.48,
+        "heatEfficiency": 0.75,
+        "moderation": 1.32,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_STONE"
+      },
+      {
+        "id": "c:storage_blocks/iron",
+        "absorption": 0.50,
+        "heatEfficiency": 0.75,
+        "moderation": 1.40,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_IRON"
+      },
+      {
+        "id": "c:storage_blocks/manasteel",
+        "absorption": 0.60,
+        "heatEfficiency": 0.75,
+        "moderation": 1.50,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_IRON"
+      },
+      {
+        "id": "c:storage_blocks/elementium",
+        "absorption": 0.61,
+        "heatEfficiency": 0.77,
+        "moderation": 1.52,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_EMERALD"
+      },
+      {
+        "id": "c:storage_blocks/nickel",
+        "absorption": 0.51,
+        "heatEfficiency": 0.77,
+        "moderation": 1.40,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_IRON"
+      },
+      {
+        "id": "c:storage_blocks/gold",
+        "absorption": 0.52,
+        "heatEfficiency": 0.80,
+        "moderation": 1.45,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_GOLD"
+      },
+      {
+        "id": "c:storage_blocks/diamond",
+        "absorption": 0.55,
+        "heatEfficiency": 0.85,
+        "moderation": 1.50,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_DIAMOND"
+      },
+      {
+        "id": "c:storage_blocks/netherite",
+        "absorption": 0.55,
+        "heatEfficiency": 0.95,
+        "moderation": 1.65,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_DIAMOND"
+      },
+      {
+        "id": "c:storage_blocks/terrasteel",
+        "absorption": 0.57,
+        "heatEfficiency": 0.87,
+        "moderation": 1.52,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_DIAMOND"
+      },
+      {
+        "id": "c:storage_blocks/emerald",
+        "absorption": 0.55,
+        "heatEfficiency": 0.85,
+        "moderation": 1.50,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_EMERALD"
+      },
+      {
+        "id": "c:glass/colorless",
+        "absorption": 0.20,
+        "heatEfficiency": 0.25,
+        "moderation": 1.10,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_GLASS"
+      },
+      {
+        "id": "c:storage_blocks/copper",
+        "absorption": 0.50,
+        "heatEfficiency": 0.75,
+        "moderation": 1.40,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_COPPER"
+      },
+      {
+        "id": "c:storage_blocks/brass",
+        "absorption": 0.52,
+        "heatEfficiency": 0.78,
+        "moderation": 1.42,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_COPPER"
+      },
+      {
+        "id": "c:storage_blocks/osmium",
+        "absorption": 0.51,
+        "heatEfficiency": 0.77,
+        "moderation": 1.41,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_COPPER"
+      },
+      {
+        "id": "c:storage_blocks/refined_obsidian",
+        "absorption": 0.53,
+        "heatEfficiency": 0.79,
+        "moderation": 1.42,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_COPPER"
+      },
+      {
+        "id": "c:storage_blocks/refined_glowstone",
+        "absorption": 0.54,
+        "heatEfficiency": 0.79,
+        "moderation": 1.44,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_EMERALD"
+      },
+      {
+        "id": "c:storage_blocks/bronze",
+        "absorption": 0.51,
+        "heatEfficiency": 0.77,
+        "moderation": 1.41,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_COPPER"
+      },
+      {
+        "id": "c:storage_blocks/zinc",
+        "absorption": 0.51,
+        "heatEfficiency": 0.77,
+        "moderation": 1.41,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_COPPER"
+      },
+      {
+        "id": "c:storage_blocks/aluminum",
+        "absorption": 0.50,
+        "heatEfficiency": 0.78,
+        "moderation": 1.42,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_IRON"
+      },
+      {
+        "id": "c:storage_blocks/steel",
+        "absorption": 0.50,
+        "heatEfficiency": 0.78,
+        "moderation": 1.42,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_IRON"
+      },
+      {
+        "id": "c:storage_blocks/invar",
+        "absorption": 0.50,
+        "heatEfficiency": 0.79,
+        "moderation": 1.43,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_IRON"
+      },
+      {
+        "id": "c:storage_blocks/tin",
+        "absorption": 0.50,
+        "heatEfficiency": 0.73,
+        "moderation": 1.38,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_SILVER"
+      },
+      {
+        "id": "c:storage_blocks/silver",
+        "absorption": 0.51,
+        "heatEfficiency": 0.79,
+        "moderation": 1.43,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_SILVER"
+      },
+      {
+        "id": "c:storage_blocks/signalum",
+        "absorption": 0.51,
+        "heatEfficiency": 0.75,
+        "moderation": 1.42,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_COPPER"
+      },
+      {
+        "id": "c:storage_blocks/lumium",
+        "absorption": 0.51,
+        "heatEfficiency": 0.79,
+        "moderation": 1.45,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_SILVER"
+      },
+      {
+        "id": "c:storage_blocks/lead",
+        "absorption": 0.75,
+        "heatEfficiency": 0.75,
+        "moderation": 1.75,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_SILVER"
+      },
+      {
+        "id": "c:storage_blocks/electrum",
+        "absorption": 0.53,
+        "heatEfficiency": 0.82,
+        "moderation": 1.47,
+        "heatConductivity": 2.2
+      },
+      {
+        "id": "c:storage_blocks/platinum",
+        "absorption": 0.57,
+        "heatEfficiency": 0.86,
+        "moderation": 1.58,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_EMERALD"
+      },
+      {
+        "id": "c:storage_blocks/enderium",
+        "absorption": 0.60,
+        "heatEfficiency": 0.88,
+        "moderation": 1.60,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_DIAMOND"
+      },
+      {
+        "id": "c:storage_blocks/draconium",
+        "absorption": 0.59,
+        "heatEfficiency": 0.88,
+        "moderation": 1.60,
+        "heatConductivity": 3.3
+      },
+      {
+        "id": "c:storage_blocks/draconium_awakened",
+        "absorption": 0.76,
+        "heatEfficiency": 0.88,
+        "moderation": 1.78,
+        "heatConductivity": 4.8
+      },
+      {
+        "id": "c:storage_blocks/graphite",
+        "absorption": 0.10,
+        "heatEfficiency": 0.50,
+        "moderation": 2.00,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_GOLD"
+      },
+      {
+        "id": "minecraft:ice",
+        "absorption": 0.33,
+        "heatEfficiency": 0.33,
+        "moderation": 1.15,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_WATER"
+      },
+      {
+        "id": "bigreactors:dry_ice",
+        "absorption": 0.42,
+        "heatEfficiency": 0.52,
+        "moderation": 1.32,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_WATER"
+      }
+    ],
+    "thermal_extra": [
+      {
+        "id": "c:storage_blocks/dragonsteel",
+        "absorption": 0.55,
+        "heatEfficiency": 0.81,
+        "moderation": 1.46,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_SILVER"
+      },
+      {
+        "id": "c:storage_blocks/twinite",
+        "absorption": 0.50,
+        "heatEfficiency": 0.78,
+        "moderation": 1.42,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_COPPER"
+      },
+      {
+        "id": "c:storage_blocks/shellite",
+        "absorption": 0.52,
+        "heatEfficiency": 0.78,
+        "moderation": 1.42,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_GOLD"
+      }
+    ],
+    "allthemodium": [
+      {
+        "id": "c:storage_blocks/allthemodium",
+        "absorption": 0.697,
+        "heatEfficiency": 0.942,
+        "moderation": 3.84,
+        "heatConductivity": 3.65
+      },
+      {
+        "id": "c:storage_blocks/vibranium",
+        "absorption": 0.24,
+        "heatEfficiency": 0.81,
+        "moderation": 7.47,
+        "heatConductivity": 4.38
+      },
+      {
+        "id": "c:storage_blocks/unobtainium",
+        "absorption": 0.972,
+        "heatEfficiency": 0.91,
+        "moderation": 3.074,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_GRAPHENE"
+      }
+    ]
+  },
+  "Fluid": {
+    "bigreactors": [
+      {
+        "id": "bigreactors:cryomisi",
+        "absorption": 0.75,
+        "heatEfficiency": 0.55,
+        "moderation": 1.60,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_EMERALD"
+      },
+      {
+        "id": "bigreactors:cryomisi_flowing",
+        "absorption": 0.68,
+        "heatEfficiency": 0.49,
+        "moderation": 1.40,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_EMERALD"
+      },
+      {
+        "id": "bigreactors:tangerium",
+        "absorption": 0.90,
+        "heatEfficiency": 0.75,
+        "moderation": 2.00,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_GOLD"
+      },
+      {
+        "id": "bigreactors:tangerium_flowing",
+        "absorption": 0.84,
+        "heatEfficiency": 0.69,
+        "moderation": 1.70,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_GOLD"
+      },
+      {
+        "id": "bigreactors:redfrigium",
+        "absorption": 0.66,
+        "heatEfficiency": 0.95,
+        "moderation": 6.00,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_DIAMOND"
+      },
+      {
+        "id": "bigreactors:redfrigium_flowing",
+        "absorption": 0.57,
+        "heatEfficiency": 0.86,
+        "moderation": 5.00,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_DIAMOND"
+      }
+    ],
+    "minecraft": [
+      {
+        "id": "minecraft:water",
+        "absorption": "Moderator.WATER.getAbsorption()",
+        "heatEfficiency": "Moderator.WATER.getHeatEfficiency()",
+        "moderation": "Moderator.WATER.getModeration()",
+        "heatConductivity": "Moderator.WATER.getHeatConductivity()"
+      },
+      {
+        "id": "minecraft:flowing_water",
+        "absorption": "Moderator.WATER.getAbsorption()",
+        "heatEfficiency": "Moderator.WATER.getHeatEfficiency()",
+        "moderation": "Moderator.WATER.getModeration()",
+        "heatConductivity": "Moderator.WATER.getHeatConductivity()"
+      }
+    ],
+    "astralsorcery": [
+      {
+        "id": "astralsorcery:liquid_starlight",
+        "absorption": 0.92,
+        "heatEfficiency": 0.80,
+        "moderation": 2.00,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_DIAMOND"
+      },
+      {
+        "id": "astralsorcery:liquid_starlight_flowing",
+        "absorption": 0.80,
+        "heatEfficiency": 0.85,
+        "moderation": 2.00,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_DIAMOND"
+      }
+    ],
+    "bloodmagic": [
+      {
+        "id": "bloodmagic:life_essence_fluid",
+        "absorption": 0.80,
+        "heatEfficiency": 0.55,
+        "moderation": 1.75,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_EMERALD"
+      },
+      {
+        "id": "bloodmagic:life_essence_fluid_flowing",
+        "absorption": 0.70,
+        "heatEfficiency": 0.55,
+        "moderation": 1.75,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_EMERALD"
+      }
+    ],
+    "mekanism": [
+      {
+        "id": "mekanism:hydrofluoric_acid",
+        "absorption": 0.68,
+        "heatEfficiency": 0.45,
+        "moderation": 1.40,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_EMERALD"
+      },
+      {
+        "id": "mekanism:flowing_hydrofluoric_acid",
+        "absorption": 0.60,
+        "heatEfficiency": 0.45,
+        "moderation": 1.40,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_EMERALD"
+      },
+      {
+        "id": "mekanism:sodium",
+        "absorption": 0.28,
+        "heatEfficiency": 0.60,
+        "moderation": 1.70,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_COPPER"
+      },
+      {
+        "id": "mekanism:flowing_sodium",
+        "absorption": 0.23,
+        "heatEfficiency": 0.60,
+        "moderation": 1.70,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_COPPER"
+      },
+      {
+        "id": "mekanism:hydrogen_chloride",
+        "absorption": 0.38,
+        "heatEfficiency": 0.65,
+        "moderation": 1.70,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_COPPER"
+      },
+      {
+        "id": "mekanism:flowing_hydrogen_chloride",
+        "absorption": 0.31,
+        "heatEfficiency": 0.65,
+        "moderation": 1.70,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_COPPER"
+      },
+      {
+        "id": "mekanism:ethene",
+        "absorption": 0.45,
+        "heatEfficiency": 0.65,
+        "moderation": 1.90,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_SILVER"
+      },
+      {
+        "id": "mekanism:flowing_ethene",
+        "absorption": 0.37,
+        "heatEfficiency": 0.65,
+        "moderation": 1.90,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_SILVER"
+      }
+    ],
+    "thermal": [
+      {
+        "id": "thermal:ender",
+        "absorption": 0.92,
+        "heatEfficiency": 0.76,
+        "moderation": 2.02,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_GOLD"
+      },
+      {
+        "id": "thermal:ender_flowing",
+        "absorption": 0.90,
+        "heatEfficiency": 0.75,
+        "moderation": 2.00,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_GOLD"
+      },
+      {
+        "id": "thermal:redstone",
+        "absorption": 0.77,
+        "heatEfficiency": 0.56,
+        "moderation": 1.61,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_EMERALD"
+      },
+      {
+        "id": "thermal:redstone_flowing",
+        "absorption": 0.75,
+        "heatEfficiency": 0.55,
+        "moderation": 1.60,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_EMERALD"
+      }
+    ],
+    "allthemodium": [
+      {
+        "id": "allthemodium:molten_allthemodium",
+        "absorption": 0.697,
+        "heatEfficiency": 0.942,
+        "moderation": 3.84,
+        "heatConductivity": 3.65
+      },
+      {
+        "id": "allthemodium:molten_vibranium",
+        "absorption": 0.24,
+        "heatEfficiency": 0.81,
+        "moderation": 7.47,
+        "heatConductivity": 4.38
+      },
+      {
+        "id": "allthemodium:molten_unobtainium",
+        "absorption": 0.972,
+        "heatEfficiency": 0.91,
+        "moderation": 3.074,
+        "heatConductivity": "IHeatEntity.CONDUCTIVITY_GRAPHENE"
+      }
+    ]
+  }
+}
